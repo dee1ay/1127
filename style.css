@@ -1,0 +1,37 @@
+@charset "utf-8";
+.container header {
+	background-color: #CC162C;
+}
+.container header nav {
+	background-color: #CC162C;
+}
+.container #about {
+	background-image: -webkit-linear-gradient(270deg,rgba(249,231,140,1.00) 0%,rgba(251,249,238,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(249,231,140,1.00) 0%,rgba(251,249,238,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(249,231,140,1.00) 0%,rgba(251,249,238,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(249,231,140,1.00) 0%,rgba(251,249,238,1.00) 100%);
+}
+
+.container #hero {
+	background-image: url(images/thumbnail_image1.jpg);
+	background-size: contain;
+	background-position: center center;
+}
+footer .footer_column .cards {
+	background-size: 1920px 1080px;
+	background-position: 1920px 1080px;
+	background-clip: content-box;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+.container .banner {
+	background-image: url(images/thumbnail_image0.jpg);
+	background-attachment: scroll;
+	background-origin: border-box;
+}
+.container #contact {
+	background-color: #19723F;
+}
+.container .copyright {
+	background-color: #CC162C;
+}
